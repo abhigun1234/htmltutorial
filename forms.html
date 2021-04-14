@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
+    <form action="">
 
         UserName:<input type="text" name="username" maxlength="4">
         <br/>
@@ -17,6 +17,28 @@
         <br/>
         Courses:<input type="checkbox" name="course"  value="Html"/>Html
         <input type="checkbox" name="course"  value="Angular"/>Angular
-    </form>
+        Age
+    </form> Group:<select name="age">
+        <optgroup label="teen age">
+        <option>10-20</option>
+        <option>10-20</option>
+    </optgroup>
+    <optgroup label="young age">
+
+        <option>20-30</option>
+        <option>30-40</option>
+    </optgroup>
+    <optgroup label="old age">
+
+        <option>50-30</option>
+        <option>60-70</option>
+    </optgroup>
+    </select>
+    <br>
+    <br>
+    <textarea name="comments" rows="13" cols="15"></textarea>
+    <br>
+    <input type="button" value="Submit">
+    <input type="reset" value="Reset">
 </body>
 </html>

@@ -1,0 +1,31 @@
+.header{
+
+    color: green;
+}
+.page{
+font-family: 'Gill Sans';
+font-size: 44px;
+font-weight: bolder;
+
+}
+.header1{
+    text-align: left;
+}
+.header2{
+    text-align: right;
+}
+.header3{
+    text-align: center;
+}
+.para{
+    text-align: justify;
+}
+.liststyle{
+    background-color: greenyellow;
+}
+.page1{
+    max-width: 400px;
+    max-height: 367px;
+    border: indianred 2px;
+    background-color: hotpink;
+}
